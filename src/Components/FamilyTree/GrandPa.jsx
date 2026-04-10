@@ -3,8 +3,8 @@ import Dad from './Dad';
 import Auncle from './Auncle';
 import Aunt from './Aunt';
 
-const GrandPa = () => {
-    const assets = 'diamond';
+const GrandPa = ({assets}) => {
+    
     return (
         <div>
             <h3>Grandpa</h3>
